@@ -1,0 +1,57 @@
+[
+  {
+    "description":"模拟一个没有参数的get请求",
+    "request":{
+      "uri":"/getdemo",
+      "method":"get"
+    },
+    "response":{
+      "headers":{"Content-Type":"text/html;charset=utf8"},
+      "text":"第一个不带参数的get请求返回报文"
+    }
+  },
+
+  {
+    "description":"模拟一个带参数的get请求",
+    "request":{
+      "uri":"/getwithparm",
+      "method":"get",
+      "queries":{
+        "name":"fengjm",
+        "age":"30"
+      }
+    },
+    "response":{
+      "headers":{"Content-Type":"text/html;charset=utf8"},
+      "text":"fengjm-30岁"
+    }
+  },
+  {
+    "description":"模拟一个带cookies的get请求",
+    "request":{
+      "uri":"/get/with/cookies",
+      "method":"get",
+      "cookies":{
+        "login":"true"
+      }
+    },
+    "response":{
+      "headers":{"Content-Type":"text/html;charset=utf8"},
+      "text":"带cookies的get请求的返回报文"
+    }
+  },
+  {
+    "description":"这个是一个返回cookies的get请求",
+    "request":{
+      "uri":"/getCookies",
+      "method":"get"
+    },
+    "response":{
+      "cookies":{
+        "login":"true"
+      },
+      "text":"恭喜你获取cookies成功"
+    }
+  }
+
+]

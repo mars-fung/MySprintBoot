@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/communityModule" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/extenRreportsModule" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/httpclientModule" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatisLogbackModule" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbootModule" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testNGModule" charset="UTF-8" />
+  </component>
+</project>

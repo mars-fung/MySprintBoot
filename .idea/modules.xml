@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/MyTestNgMyBatisSprintBoot.iml" filepath="$PROJECT_DIR$/.idea/MyTestNgMyBatisSprintBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/communityModule/communityModule.iml" filepath="$PROJECT_DIR$/communityModule/communityModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extenRreportsModule/extenRreportsModule.iml" filepath="$PROJECT_DIR$/extenRreportsModule/extenRreportsModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpclientModule/httpclientModule.iml" filepath="$PROJECT_DIR$/httpclientModule/httpclientModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatisLogbackModule/mybatisLogbackModule.iml" filepath="$PROJECT_DIR$/mybatisLogbackModule/mybatisLogbackModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootModule/springbootModule.iml" filepath="$PROJECT_DIR$/springbootModule/springbootModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testNGModule/testNGModule.iml" filepath="$PROJECT_DIR$/testNGModule/testNGModule.iml" />
+    </modules>
+  </component>
+</project>
