@@ -7,4 +7,17 @@
     <select id="getUserCount" resultType="Integer">
         select count(*) from user;
     </select>
+
+    <insert id="addUser" parameterType="com.course.module.User">
+        INSERT INTO USER(name,age,sex) VALUE (#{name},#{age},#{sex});
+    </insert>
+
+    <update id="updateUser" parameterType="com.course.module.User">
+        UPDATE USER set name = #{name} , age = #{age} where id = #{id};
+    </update>
+
+    <delete id="deleteUser" parameterType="Integer">
+      DELETE from USER where id = #{id};
+    </delete>
+
 </mapper>
